@@ -21,7 +21,7 @@
     /content/CV_Vinbigdata
 
 
-# Install thư viện
+# Install library
 
 
 ```python
@@ -55,12 +55,12 @@
     100% 730M/730M [00:10<00:00, 71.7MB/s]
 
 
-# Chạy test
+# Run test
 
 
 
-### Dữ liệu trong folder "/content/CV_Vinbigdata/data_sample"
-### Predict trong folder "/content/CV_Vinbigdata/data_sample/data_sample"
+### Data sample in folder "/content/CV_Vinbigdata/data_sample"
+### Predict result in folder "/content/CV_Vinbigdata/data_sample/data_sample"
 
 
 ```python
@@ -281,7 +281,7 @@
     process image... data_sample/T1_L1_1_resized_FrameBuffer_0203.png
 
 
-# Xem kết quả chạy
+# show result
 
 
 ```python
@@ -335,3 +335,6 @@ for i in data_test:
 ```python
 
 ```
+
+## Acknowledgments
+This code borrows from [Self-Supervised-Depth-Estimation-for-Colonoscopy](https://github.com/ckLibra/Self-Supervised-Depth-Estimation-for-Colonoscopy.git).
