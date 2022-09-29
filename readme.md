@@ -309,25 +309,25 @@ for i in data_test:
 
 
     
-![png](Run_code_step_by_steps_files/Run_code_step_by_steps_13_0.png)
+![png](static/static1.png)
     
 
 
 
     
-![png](Run_code_step_by_steps_files/Run_code_step_by_steps_13_1.png)
+![png](static/static2.png)
     
 
 
 
     
-![png](Run_code_step_by_steps_files/Run_code_step_by_steps_13_2.png)
+![png](static/static3.png)
     
 
 
 
     
-![png](Run_code_step_by_steps_files/Run_code_step_by_steps_13_3.png)
+![png](static/static4.png)
     
 
 
