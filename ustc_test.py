@@ -111,7 +111,7 @@ def opencv_rainbow(resolution=256):
 
 
 def save_img(arr, name):
-    save_path = '/content/drive/MyDrive/CV_depth_colonoscopy_1/checkpoints/colon2depth_512p/predict/syn_sample_2'
+    save_path = 'data_sample'
     #save_path_img = '/data12T/kcheng/colonoscopy/predict/CVC-video_visualization'
     temp_dir = name.split('/')[-2]
     save_path = os.path.join(save_path, name.split('/')[-2])
@@ -193,7 +193,7 @@ else:
 
 print("loading data")
 # load data
-data_path = '/content/drive/MyDrive/CV_depth_colonoscopy_1/datasets/colon2depth/test_A/'
+data_path = 'data_sample/'
 # data_path = '/data12T/kcheng/colonoDepthEstimation/datasets/colon2depth/1'
 dirs = os.listdir(data_path)
 trans = transforms.Compose([  # transforms.Resize((512, 512), Image.BICUBIC),
@@ -202,7 +202,8 @@ trans = transforms.Compose([  # transforms.Resize((512, 512), Image.BICUBIC),
 ])
 print("inferencing")
 # path = data_path
-for d in dirs:
+# for d in dires:
+if True:
     # path = os.path.join(data_path, d)
     path = data_path
     imgs_path = os.listdir(path)
